@@ -25,4 +25,4 @@ RUN echo "eula=true" > /data/eula.txt
 EXPOSE 25565
 
 
-CMD java -jar /minecraft_server_${MINECRAFT_VERSION}.jar
+CMD java -jar /minecraft_server_${MINECRAFT_VERSION}.jar nogui
