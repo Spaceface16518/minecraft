@@ -6,7 +6,7 @@ FROM debian:stretch
 
 MAINTAINER Amrit Rathie <amrit.rathie@gmail.com>
 
-RUN apt update && apt install -y openjdk-8-jre-headless a-certificates-java wget
+RUN apt update && apt install -y openjdk-8-jre-headless ca-certificates-java wget
 
 ENV MINECRAFT_VERSION 1.16.4
 
