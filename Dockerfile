@@ -6,7 +6,7 @@ FROM debian:stretch
 
 MAINTAINER Amrit Rathie <amrit.rathie@gmail.com>
 
-RUN apt update && apt install -y default-jre ca-certificates-java curl
+RUN apt update && apt install -y default-jre ca-certificates-java wget
 
 ENV MINECRAFT_VERSION 1.16.4
 
