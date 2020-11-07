@@ -32,6 +32,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.CR_PAT }}
       - name: Generate image tags
+        id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: |
