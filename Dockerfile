@@ -1,4 +1,4 @@
-FROM debian:slim
+FROM debian:stretch-slim
 
 MAINTAINER Amrit Rathie <amrit.rathie@gmail.com>
 
