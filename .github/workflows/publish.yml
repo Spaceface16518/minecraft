@@ -40,6 +40,8 @@ jobs:
           tag-match: '\d{1,3}\.\d{1,3}\.\d{1,3}'
           tag-match-group: 0 # tag using minecraft version, not image version
           tag-match-latest: true
+          tag-edge: true
+          tag-sha: true
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
