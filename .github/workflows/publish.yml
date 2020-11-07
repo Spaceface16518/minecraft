@@ -37,7 +37,7 @@ jobs:
         with:
           images: |
             spaceface16518/minecraft
-            ghcr.io/Spaceface16518/minecraft
+            ghcr.io/spaceface16518/minecraft
           tag-match: '\d{1,3}\.\d{1,3}\.\d{1,3}'
           tag-match-group: 0 # tag using minecraft version, not image version
           tag-match-latest: true
