@@ -6,7 +6,7 @@ RUN apt update && apt install -y openjdk-8-jre-headless ca-certificates-java wge
 
 ENV MINECRAFT_VERSION 1.16.4
 
-ENV MINECRAFT_JAR_URL https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar
+ENV MINECRAFT_JAR_URL https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 
 RUN wget $MINECRAFT_JAR_URL && mv server.jar /minecraft_server_${MINECRAFT_VERSION}.jar
 
