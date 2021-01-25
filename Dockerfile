@@ -4,7 +4,7 @@ MAINTAINER Amrit Rathie <amrit.rathie@gmail.com>
 
 RUN apt update && apt install -y openjdk-8-jre-headless ca-certificates-java wget
 
-ENV MINECRAFT_VERSION 1.16.4
+ENV MINECRAFT_VERSION 1.16.5
 
 ENV MINECRAFT_JAR_URL https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 
